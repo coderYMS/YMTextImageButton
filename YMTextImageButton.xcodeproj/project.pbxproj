@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0AA1C6B1EEFEAED00F18F93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AA1C6A1EEFEAED00F18F93 /* main.m */; };
+		C0AA1C6E1EEFEAED00F18F93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AA1C6D1EEFEAED00F18F93 /* AppDelegate.m */; };
+		C0AA1C711EEFEAED00F18F93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AA1C701EEFEAED00F18F93 /* ViewController.m */; };
+		C0AA1C741EEFEAED00F18F93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0AA1C721EEFEAED00F18F93 /* Main.storyboard */; };
+		C0AA1C761EEFEAED00F18F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0AA1C751EEFEAED00F18F93 /* Assets.xcassets */; };
+		C0AA1C791EEFEAED00F18F93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0AA1C771EEFEAED00F18F93 /* LaunchScreen.storyboard */; };
+		C0AA1C841EEFEAED00F18F93 /* YMTextImageButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AA1C831EEFEAED00F18F93 /* YMTextImageButtonTests.m */; };
+		C0AA1C8F1EEFEAED00F18F93 /* YMTextImageButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AA1C8E1EEFEAED00F18F93 /* YMTextImageButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0AA1C801EEFEAED00F18F93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0AA1C5E1EEFEAEC00F18F93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0AA1C651EEFEAED00F18F93;
+			remoteInfo = YMTextImageButton;
+		};
+		C0AA1C8B1EEFEAED00F18F93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0AA1C5E1EEFEAEC00F18F93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0AA1C651EEFEAED00F18F93;
+			remoteInfo = YMTextImageButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0AA1C661EEFEAED00F18F93 /* YMTextImageButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMTextImageButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0AA1C6A1EEFEAED00F18F93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0AA1C6C1EEFEAED00F18F93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0AA1C6D1EEFEAED00F18F93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0AA1C6F1EEFEAED00F18F93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0AA1C701EEFEAED00F18F93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0AA1C731EEFEAED00F18F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0AA1C751EEFEAED00F18F93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0AA1C781EEFEAED00F18F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0AA1C7A1EEFEAED00F18F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0AA1C7F1EEFEAED00F18F93 /* YMTextImageButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMTextImageButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0AA1C831EEFEAED00F18F93 /* YMTextImageButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMTextImageButtonTests.m; sourceTree = "<group>"; };
+		C0AA1C851EEFEAED00F18F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0AA1C8A1EEFEAED00F18F93 /* YMTextImageButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMTextImageButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0AA1C8E1EEFEAED00F18F93 /* YMTextImageButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMTextImageButtonUITests.m; sourceTree = "<group>"; };
+		C0AA1C901EEFEAED00F18F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0AA1C631EEFEAED00F18F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0AA1C7C1EEFEAED00F18F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0AA1C871EEFEAED00F18F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0AA1C5D1EEFEAEC00F18F93 = {
+			isa = PBXGroup;
+			children = (
+				C0AA1C681EEFEAED00F18F93 /* YMTextImageButton */,
+				C0AA1C821EEFEAED00F18F93 /* YMTextImageButtonTests */,
+				C0AA1C8D1EEFEAED00F18F93 /* YMTextImageButtonUITests */,
+				C0AA1C671EEFEAED00F18F93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0AA1C671EEFEAED00F18F93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0AA1C661EEFEAED00F18F93 /* YMTextImageButton.app */,
+				C0AA1C7F1EEFEAED00F18F93 /* YMTextImageButtonTests.xctest */,
+				C0AA1C8A1EEFEAED00F18F93 /* YMTextImageButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0AA1C681EEFEAED00F18F93 /* YMTextImageButton */ = {
+			isa = PBXGroup;
+			children = (
+				C0AA1C6C1EEFEAED00F18F93 /* AppDelegate.h */,
+				C0AA1C6D1EEFEAED00F18F93 /* AppDelegate.m */,
+				C0AA1C6F1EEFEAED00F18F93 /* ViewController.h */,
+				C0AA1C701EEFEAED00F18F93 /* ViewController.m */,
+				C0AA1C721EEFEAED00F18F93 /* Main.storyboard */,
+				C0AA1C751EEFEAED00F18F93 /* Assets.xcassets */,
+				C0AA1C771EEFEAED00F18F93 /* LaunchScreen.storyboard */,
+				C0AA1C7A1EEFEAED00F18F93 /* Info.plist */,
+				C0AA1C691EEFEAED00F18F93 /* Supporting Files */,
+			);
+			path = YMTextImageButton;
+			sourceTree = "<group>";
+		};
+		C0AA1C691EEFEAED00F18F93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0AA1C6A1EEFEAED00F18F93 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0AA1C821EEFEAED00F18F93 /* YMTextImageButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0AA1C831EEFEAED00F18F93 /* YMTextImageButtonTests.m */,
+				C0AA1C851EEFEAED00F18F93 /* Info.plist */,
+			);
+			path = YMTextImageButtonTests;
+			sourceTree = "<group>";
+		};
+		C0AA1C8D1EEFEAED00F18F93 /* YMTextImageButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0AA1C8E1EEFEAED00F18F93 /* YMTextImageButtonUITests.m */,
+				C0AA1C901EEFEAED00F18F93 /* Info.plist */,
+			);
+			path = YMTextImageButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0AA1C651EEFEAED00F18F93 /* YMTextImageButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0AA1C931EEFEAED00F18F93 /* Build configuration list for PBXNativeTarget "YMTextImageButton" */;
+			buildPhases = (
+				C0AA1C621EEFEAED00F18F93 /* Sources */,
+				C0AA1C631EEFEAED00F18F93 /* Frameworks */,
+				C0AA1C641EEFEAED00F18F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMTextImageButton;
+			productName = YMTextImageButton;
+			productReference = C0AA1C661EEFEAED00F18F93 /* YMTextImageButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0AA1C7E1EEFEAED00F18F93 /* YMTextImageButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0AA1C961EEFEAED00F18F93 /* Build configuration list for PBXNativeTarget "YMTextImageButtonTests" */;
+			buildPhases = (
+				C0AA1C7B1EEFEAED00F18F93 /* Sources */,
+				C0AA1C7C1EEFEAED00F18F93 /* Frameworks */,
+				C0AA1C7D1EEFEAED00F18F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0AA1C811EEFEAED00F18F93 /* PBXTargetDependency */,
+			);
+			name = YMTextImageButtonTests;
+			productName = YMTextImageButtonTests;
+			productReference = C0AA1C7F1EEFEAED00F18F93 /* YMTextImageButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0AA1C891EEFEAED00F18F93 /* YMTextImageButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0AA1C991EEFEAED00F18F93 /* Build configuration list for PBXNativeTarget "YMTextImageButtonUITests" */;
+			buildPhases = (
+				C0AA1C861EEFEAED00F18F93 /* Sources */,
+				C0AA1C871EEFEAED00F18F93 /* Frameworks */,
+				C0AA1C881EEFEAED00F18F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0AA1C8C1EEFEAED00F18F93 /* PBXTargetDependency */,
+			);
+			name = YMTextImageButtonUITests;
+			productName = YMTextImageButtonUITests;
+			productReference = C0AA1C8A1EEFEAED00F18F93 /* YMTextImageButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0AA1C5E1EEFEAEC00F18F93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "余梦石";
+				TargetAttributes = {
+					C0AA1C651EEFEAED00F18F93 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C0AA1C7E1EEFEAED00F18F93 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0AA1C651EEFEAED00F18F93;
+					};
+					C0AA1C891EEFEAED00F18F93 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0AA1C651EEFEAED00F18F93;
+					};
+				};
+			};
+			buildConfigurationList = C0AA1C611EEFEAED00F18F93 /* Build configuration list for PBXProject "YMTextImageButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0AA1C5D1EEFEAEC00F18F93;
+			productRefGroup = C0AA1C671EEFEAED00F18F93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0AA1C651EEFEAED00F18F93 /* YMTextImageButton */,
+				C0AA1C7E1EEFEAED00F18F93 /* YMTextImageButtonTests */,
+				C0AA1C891EEFEAED00F18F93 /* YMTextImageButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0AA1C641EEFEAED00F18F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AA1C791EEFEAED00F18F93 /* LaunchScreen.storyboard in Resources */,
+				C0AA1C761EEFEAED00F18F93 /* Assets.xcassets in Resources */,
+				C0AA1C741EEFEAED00F18F93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0AA1C7D1EEFEAED00F18F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0AA1C881EEFEAED00F18F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0AA1C621EEFEAED00F18F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AA1C711EEFEAED00F18F93 /* ViewController.m in Sources */,
+				C0AA1C6E1EEFEAED00F18F93 /* AppDelegate.m in Sources */,
+				C0AA1C6B1EEFEAED00F18F93 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0AA1C7B1EEFEAED00F18F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AA1C841EEFEAED00F18F93 /* YMTextImageButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0AA1C861EEFEAED00F18F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AA1C8F1EEFEAED00F18F93 /* YMTextImageButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0AA1C811EEFEAED00F18F93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0AA1C651EEFEAED00F18F93 /* YMTextImageButton */;
+			targetProxy = C0AA1C801EEFEAED00F18F93 /* PBXContainerItemProxy */;
+		};
+		C0AA1C8C1EEFEAED00F18F93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0AA1C651EEFEAED00F18F93 /* YMTextImageButton */;
+			targetProxy = C0AA1C8B1EEFEAED00F18F93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0AA1C721EEFEAED00F18F93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0AA1C731EEFEAED00F18F93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0AA1C771EEFEAED00F18F93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0AA1C781EEFEAED00F18F93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0AA1C911EEFEAED00F18F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0AA1C921EEFEAED00F18F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0AA1C941EEFEAED00F18F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMTextImageButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderYMS.YMTextImageButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0AA1C951EEFEAED00F18F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMTextImageButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderYMS.YMTextImageButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0AA1C971EEFEAED00F18F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YMTextImageButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderYMS.YMTextImageButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMTextImageButton.app/YMTextImageButton";
+			};
+			name = Debug;
+		};
+		C0AA1C981EEFEAED00F18F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YMTextImageButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderYMS.YMTextImageButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMTextImageButton.app/YMTextImageButton";
+			};
+			name = Release;
+		};
+		C0AA1C9A1EEFEAED00F18F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YMTextImageButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderYMS.YMTextImageButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YMTextImageButton;
+			};
+			name = Debug;
+		};
+		C0AA1C9B1EEFEAED00F18F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YMTextImageButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderYMS.YMTextImageButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YMTextImageButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0AA1C611EEFEAED00F18F93 /* Build configuration list for PBXProject "YMTextImageButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0AA1C911EEFEAED00F18F93 /* Debug */,
+				C0AA1C921EEFEAED00F18F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0AA1C931EEFEAED00F18F93 /* Build configuration list for PBXNativeTarget "YMTextImageButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0AA1C941EEFEAED00F18F93 /* Debug */,
+				C0AA1C951EEFEAED00F18F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0AA1C961EEFEAED00F18F93 /* Build configuration list for PBXNativeTarget "YMTextImageButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0AA1C971EEFEAED00F18F93 /* Debug */,
+				C0AA1C981EEFEAED00F18F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0AA1C991EEFEAED00F18F93 /* Build configuration list for PBXNativeTarget "YMTextImageButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0AA1C9A1EEFEAED00F18F93 /* Debug */,
+				C0AA1C9B1EEFEAED00F18F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0AA1C5E1EEFEAEC00F18F93 /* Project object */;
+}
